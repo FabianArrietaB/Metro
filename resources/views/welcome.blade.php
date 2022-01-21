@@ -8,10 +8,10 @@
     <div class="collapse navbar-collapse" id="mynavbar">
       <ul class="navbar-nav me-auto">
         <li class="nav-item">
-        	<a class="navbar-brand px-1" href="#"><i class="fas fa-envelope fa-2x"></i></a>
+          <a class="navbar-brand px-1" href="#"><i class="fas fa-envelope fa-2x"></i></a>
         </li>
         <li class="nav-item">
-        	<a class="navbar-brand px-1" href="#"><i class="fas fa-bell fa-2x"></i></a>
+          <a class="navbar-brand px-1" href="#"><i class="fas fa-bell fa-2x"></i></a>
         </li>
       </ul>
       <div class="container-fluid">
@@ -22,19 +22,19 @@
           </div>
         </div>
       </div>
-      <div class="navbar-nav">
-      	<div class="nav-item text-nowrap">
-      		<ul class="dropdown navbar-nav me-auto">
-        		<a type="button" class="navbar-brand" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" href="#">
-          		<strong>Usuario</strong><img src="../img/logo2.png" alt="Logo" style="width:50px;" class="rounded-pill">
-        		</a>
-        		<ul class="dropdown-menu">
-          			<li><a class="dropdown-item" href="#">Datos</a></li>
-          			<li><a class="dropdown-item" href="#">Permisos</a></li>
-          			<li><a class="dropdown-item" href="#">Salir</a></li>
-        		</ul>
-      		</ul>
-      	</div>
+      
+        <div class="nav-item text-nowrap">
+          <ul class="dropdown navbar-nav me-auto">
+            <a type="button" class="navbar-brand" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" href="#">
+              <strong>Usuario</strong><img src="../img/logo2.png" alt="Logo" style="width:50px;" class="rounded-pill">
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Datos</a></li>
+              <li><a class="dropdown-item" href="#">Permisos</a></li>
+              <li><a class="dropdown-item" href="#">Salir</a></li>
+            </ul>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
@@ -49,22 +49,19 @@
             <ul class="nav flex-column">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">
-                <i class="fas fa-home"></i>
-                Inicio
+                <i class="fas fa-home fa-1x"> HOME</i>
                 <span data-feather="home"></span>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                <i class="fas fa-th-large"></i>
-                Productos
+                <i class="fas fa-th-large fa-1x"> CATALAGO</i>
                 <span data-feather="shopping-cart"></span>
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                <i class="fas fa-clipboard-list"></i>
-                Reportes
+                <i class="fas fa-clipboard-list fa-1x"> REPORTES</i>
                 <span data-feather="bar-chart-2"></span>
                 </a>
               </li>
@@ -79,25 +76,25 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">
                   <span data-feather="file-text"></span>
-                  Current month
+                  Reporte Semanal
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
                   <span data-feather="file-text"></span>
-                  Last quarter
+                  Reporte Quincenal
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
                   <span data-feather="file-text"></span>
-                  Social engagement
+                  Reporte Mensual
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
                   <span data-feather="file-text"></span>
-                  Year-end sale
+                  Reporte Anual
                 </a>
               </li>
             </ul>
