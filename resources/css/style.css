@@ -83,7 +83,7 @@
     z-index: 10000;
     background: blue;
     color: white;
-    
+
 }
 .simplescrollup__button--show {
     transform: translateX(0);
@@ -104,4 +104,8 @@
     .bd-placeholder-img-lg {
       font-size: 3.5rem;
     }
+  }
+
+  .hide-dl-submenu > ul {
+    display:none;
   }

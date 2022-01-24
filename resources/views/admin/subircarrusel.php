@@ -103,7 +103,7 @@
 
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
       <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h2">PRINCIPAL</h1>
+        <h1 class="h2">CARRUSEL</h1>
         <div class="btn-toolbar mb-2 mb-md-0">
           <div class="btn-group me-2">
             <button type="button" class="btn btn-sm btn-outline-primary"><i class="fas fa-arrow-alt-circle-up"></i> Subir Archivo</button>
@@ -114,7 +114,69 @@
             Esta Semana
           </button>
         </div>
-
+      </div>
+      <h2>Elementos</h2>
+      <div class="table-responsive" style="text-align: center">
+        <table class="table table-striped table-sm">
+          <thead>
+            <tr>
+              <th scope="col">Posicion</th>
+              <th scope="col">Nombre</th>
+              <th scope="col">Dimensiones</th>
+              <th scope="col">Formato</th>
+              <th scope="col">Estado</th>
+              <th scope="col">Acciones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>img0</td>
+              <td>1920*1080</td>
+              <td>png</td>
+              <td><img src="../img/Dash/si.png" height="35" width="35"></td>
+              <td>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+                  <button type="button" class="btn btn-warning"><i class="fas fa-edit"></i></button>
+                  <button type="button" class="btn btn-success"><i class="fas fa-check-circle"></i></button>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>img1</td>
+              <td>1920*1080</td>
+              <td>png</td>
+              <td><img src="../img/Dash/no.png" height="35" width="35"></td>
+              <td>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+                  <button type="button" class="btn btn-warning"><i class="fas fa-edit"></i></button>
+                  <button type="button" class="btn btn-success"><i class="fas fa-check-circle"></i></button>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>img2</td>
+              <td>1920*1080</td>
+              <td>png</td>
+              <td><img src="../img/Dash/not.png" height="35" width="35"></td>
+              <td>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                  <button type="button" class="btn btn-danger"><i class="fas fa-trash-alt"></i></button>
+                  <button type="button" class="btn btn-warning"><i class="fas fa-edit"></i></button>
+                  <button type="button" class="btn btn-success"><i class="fas fa-check-circle"></i></button>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </div>
+</div>
 
 
     <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
