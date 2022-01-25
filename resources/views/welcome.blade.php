@@ -26,7 +26,7 @@
         <div class="nav-item text-nowrap">
           <ul class="dropdown navbar-nav me-auto">
             <a type="button" class="navbar-brand" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" href="#">
-              <strong>Usuario</strong><img src="../img/logo2.png" alt="Logo" style="width:50px;" class="rounded-pill">
+              <strong>Usuario </strong><i class="fas fa-user fa-2x"></i>
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Datos</a></li>
