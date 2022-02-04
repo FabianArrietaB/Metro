@@ -1,124 +1,150 @@
 <?php require_once('../resources/views/header.php') ?>
 
-<nav class="navbar navbar-expand-sm navbar-primary bg-warning">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <img src="../img/logo2.png" alt="Logo" style="width:50px;" class="rounded-pill">
-    </a>
-    <div class="collapse navbar-collapse" id="mynavbar">
-      <ul class="navbar-nav me-auto">
-        <li class="nav-item">
-          <a class="navbar-brand px-1" href="#"><i class="fas fa-envelope fa-2x"></i></a>
-        </li>
-        <li class="nav-item">
-          <a class="navbar-brand px-1" href="#"><i class="fas fa-bell fa-2x"></i></a>
-        </li>
-      </ul>
-      <div class="container-fluid">
-        <div class="col-sm-12">
-          <div class="input-group">
-              <input class="form-control form-control-dark w-90" type="text" placeholder="Buscar" aria-label="Search">  
-              <button type="button" class="btn btn-primary" href="#"><i class="fas fa-search"></i></button>
+<section class="box">
+
+<!-- start login -->
+<div class="container login">
+    <div class="row">
+      <!-- start carousel -->
+      <div class="col-md-7 carousel-box">
+          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <img src="../img/home/somos.png" class="w-100 img-fluid" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                          <h5></h5>
+                          <p></p>
+                          <p><a href="" title="read more">Saber mas...</a></p>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <img src="../img/home/Mision.png" class="w-100 img-fluid" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                      <h5></h5>
+                          <p></p>
+                          <p><a href="" title="read more">Saber mas...</a></p>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <img src="https://blog.artegrafico.net/lab/js/login-carousel/assets/img/photo-1517430816045-df4b7de11d1d.jpg" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                          <h5>Nostrud eiusmod dolor irure ad voluptate.</h5>
+                          <p>Nisi proident id ad deserunt esse aliquip officia consectetur duis deserunt.</p>
+                          <p><a href="" title="read more">Read more ...</a></p>
+                      </div>
+                  </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button>
           </div>
+      </div><!-- end carousel -->
+      <div class="col-md-5 login-box">
+
+            <!-- start tabs -->
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-login-tab" data-bs-toggle="pill" data-bs-target="#pills-login" type="button" role="tab" aria-controls="pills-login" aria-selected="true">Ingresar</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-register-tab" data-bs-toggle="pill" data-bs-target="#pills-register" type="button" role="tab" aria-controls="pills-register" aria-selected="false">Registrar</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-password-tab" data-bs-toggle="pill" data-bs-target="#pills-password" type="button" role="tab" aria-controls="pills-password" aria-selected="false">Recuperar Contraseña?</button>
+                </li>
+            </ul><!-- end tabs -->
+
+            <!-- tabs -->
+            <div class="tab-content" id="pills-tabContent">
+
+                <!-- tab access -->
+                <div class="tab-pane fade" id="pills-login" role="tabpanel" aria-labelledby="pills-login-tab">
+
+                    <h2 class="text-left">Ingresar</h2>
+                    <form class="login-form">
+                        <div class="input-group mb-3">
+                            <div class="input-group-append">
+                                <div class="input-group-text"><i class="far fa-user" style="margin:5px 0"></i></div>
+                            </div>
+                            <input type="email" id="email" name="email" value="" class="form-control input_user" value="" placeholder="Usuario o Email" autocomplete />
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-append">
+                                <span class="input-group-text"><i class="fas fa-key" style="margin:5px 0"></i></span>
+                            </div>
+                            <input type="password" id="password" name="password" value="" autocomplete class="form-control input_pass" placeholder="Contraseña">
+                        </div>
+                        <div class="form-group mb-3">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="customControlInline">
+                                <label class="custom-control-label" for="customControlInline">Recuerdame</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-secondary btn-block" id="access" name="access" style="background-color: #285D9C;">Acceder</button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div><!-- end tab access -->
+
+                <!-- tab register -->
+                <div class="tab-pane fade" id="pills-register" role="tabpanel" aria-labelledby="pills-register-tab">
+                    <h2 class="text-left">Registrarse</h2>
+                    <form class="login-form">
+                        <div class="input-group flex-nowrap mb-3">
+                            <div class="input-group-append">
+                                <div class="input-group-text"><i class="far fa-user" style="margin:5px 0"></i></div>
+                            </div>
+                            <input type="email" id="email" name="email" value="" class="form-control input_user" value="" placeholder="Ingrese su Correo" autocomplete />
+                        </div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-append">
+                                <span class="input-group-text"><i class="fas fa-key" style="margin:5px 0"></i></span>
+                            </div>
+                            <input type="password" id="password" name="password" value="" autocomplete class="form-control input_pass" placeholder="Cree su Contraseña">
+                        </div>
+                        <div class="row">
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-secondary btn-block" id="access" name="access" style="background-color: #285D9C" >Registrar</button></div>
+                        </div>
+                    </form>
+                    <p class="agree"><small>Al registrarte, aceptas nuestros Términos. </small></p>
+                </div>
+
+                <div class="tab-pane fade" id="pills-password" role="tabpanel" aria-labelledby="pills-password-tab">
+                    <h2 class="text-left">Olvide Contraseña?</h2>
+                    <p>¿Problemas para iniciar sesión? Ingrese su correo electrónico y le enviaremos un enlace para volver a su cuenta.</p>
+
+                    <form class="login-form">
+                        <div class="input-group mb-3">
+                            <div class="input-group-append">
+                                <div class="input-group-text"><i class="far fa-user" style="margin:5px 0"></i></div>
+                            </div>
+                            <input type="email" id="email" name="email" value="" class="form-control input_user" value="" placeholder="Correo" autocomplete />
+                        </div>
+                        <div class="row">
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-secondary btn-block" id="access" name="access">Recuperar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
         </div>
-      </div>
-      
-        <div class="nav-item text-nowrap">
-          <ul class="dropdown navbar-nav me-auto">
-            <a type="button" class="navbar-brand" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" href="#">
-              <strong>Usuario </strong><i class="fas fa-user fa-2x"></i>
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Datos</a></li>
-              <li><a class="dropdown-item" href="#">Permisos</a></li>
-              <li><a class="dropdown-item" href="#">Salir</a></li>
-            </ul>
-          </ul>
-        </div>
-      </div>
     </div>
-  </div>
-</nav>
-
-<div class="container-fluid">
-  <div class="row">
-    <nav id="sidebarMenu" class="col-md-3 col-lg-2 d-md-block bg-light sidebar collapse">
-      <div class="d-flex justify-content-center">
-        <div class="flex-grow-1 ps-2">
-          <div class="position-sticky pt-3">
-            <ul class="nav flex-column">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">
-                <i class="fas fa-home fa-1x"> HOME</i>
-                <span data-feather="home"></span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                <i class="fas fa-th-large fa-1x"> CATALAGO</i>
-                <span data-feather="shopping-cart"></span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                <i class="fas fa-clipboard-list fa-1x"> REPORTES</i>
-                <span data-feather="bar-chart-2"></span>
-                </a>
-              </li>
-            </ul>
-            <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
-              <span>Guardar reportes</span>
-              <a class="link-secondary" href="#" aria-label="Add a new report">
-                <span data-feather="plus-circle"></span>
-              </a>
-            </h6>
-            <ul class="nav flex-column mb-2">
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <span data-feather="file-text"></span>
-                  Reporte Semanal
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <span data-feather="file-text"></span>
-                  Reporte Quincenal
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <span data-feather="file-text"></span>
-                  Reporte Mensual
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">
-                  <span data-feather="file-text"></span>
-                  Reporte Anual
-                </a>
-              </li>
-            </ul>
-          </div>
-    </nav>
-
-    <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
-      <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h1 class="h2">PRINCIPAL</h1>
-        <div class="btn-toolbar mb-2 mb-md-0">
-          <div class="btn-group me-2">
-            <button type="button" class="btn btn-sm btn-outline-primary"><i class="fas fa-arrow-alt-circle-up"></i> Subir Archivo</button>
-            <button type="button" class="btn btn-sm btn-outline-primary">Exportar <i class="fas fa-arrow-alt-circle-down"></i></button>
-          </div>
-          <button type="button" class="btn btn-sm btn-outline-primary dropdown-toggle">
-            <span data-feather="calendar"></span>
-            Esta Semana
-          </button>
-        </div>
-
-
-
-    <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-
-      <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js" integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha" crossorigin="anonymous"></script><script src="dashboard.js"></script>
-  </body>
-</html>
+</div><!-- end login -->
+</section>
