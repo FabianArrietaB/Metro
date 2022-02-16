@@ -38,15 +38,11 @@
 
         <!-- Custom styles for this template -->
         <link href="dashboard.css" rel="stylesheet">
-        <link rel="stylesheet" href="plugins/sweetalert2/sweetalert2.min.css">
-        <link rel="stylesheet" type="text/css" href="fuentes/iconic/css/material-design-iconic-font.min.css">
+
         <style>
             <?php require_once('../resources/css/style.css') ?>
         </style>
 
         <script type="text/javascript" src="../resources/js/funciones.js"></script>
-        <script type="text/javascript" src="popper/popper.min.js"></script>
-        <script type="text/javascript" src="plugins/sweetalert2/sweetalert2.all.min.js"></script>
-        <script type="text/javascript" src="../resources/js/codigo.js"></script>
     </head>
 <body>
