@@ -1,6 +1,6 @@
-<?php require_once('../resources/views/header.php') ?>
+<?php require_once('../resources/views/home/header.php') ?>
 
-<?php require_once('../resources/views/menu.php') ?>
+<?php require_once('../resources/views/home/menu.php') ?>
 
 <main>
   <div class="container-fluid">
@@ -100,4 +100,4 @@
 </main>
   <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-  <?php require_once('../resources/views/footer.php') ?>
+  <?php require_once('../resources/views/home/footer.php') ?>
