@@ -13,10 +13,50 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+/*Home*/
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('home/home');
 
 });
 
+Route::get('/catalogo', function () {
+    return view('home/productos');
 
-Route::redirect('/info', 'info');
+});
+
+Route::get('/info', function () {
+    return view('home/info');
+
+});
+
+/*Autenticar*/
+
+Route::get('/aut', function () {
+    return view('auth/login');
+
+});
+
+/*Cart*/
+
+Route::get('/cars', function () {
+    return view('cart/cart');
+
+});
+
+/*Admin*/
+
+Route::get('/viewadmin', function () {
+    return view('admin/admin');
+
+});
+
+Route::get('/upcarrus', function () {
+    return view('admin/subircarrusel');
+
+});
+
+Route::get('/upcatalogo', function () {
+    return view('admin/subircatalogo');
+
+});

@@ -12,7 +12,7 @@
                 <li class="list-inline-item"><a class="g-color-white-opacity-0_8 g-color-primary--hover g-pa-5" href="https://www.facebook.com/Metropolisdelacosta/" target="_blank"><i class="fab fa-facebook fa-3x"></i></a></li>
                 <li class="list-inline-item"><a class="g-color-white-opacity-0_8 g-color-primary--hover g-pa-5" href="https://api.whatsapp.com/send?phone=3223926224" target="_blank"><i class="fab fa-whatsapp fa-3x"></i></a></li>
                 <li class="list-inline-item"><a class="g-color-white-opacity-0_8 g-color-primary--hover g-pa-5" href="https://www.instagram.com/grupo_metropolis/" target="_blank"><i class="fab fa-instagram fa-3x"></i></a></li>
-                <li class="list-inline-item"><a class="g-color-white-opacity-0_8 g-color-primary--hover g-pa-5" href="" target="_blank"><i class="fas fa-user fa-3x"></i></a></li>
+                <li class="list-inline-item"><a class="g-color-white-opacity-0_8 g-color-primary--hover g-pa-5" href="http://localhost/Metropolisweb/public/aut" target=""><i class="fas fa-user fa-3x"></i></a></li>
                 <li class="list-inline-item"><a class="g-color-white-opacity-0_8 g-color-primary--hover g-pa-5" href="" target="_blank"><i class="fas fa-shopping-cart fa-3x"></i></a></li>
             </ul>
         </div>

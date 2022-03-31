@@ -1,6 +1,6 @@
-<?php require_once('../app/Views/header.php'); ?>
+<?php require_once('../resources/views/home/header.php'); ?>
 
-<?php require_once('../app/Views/menu.php'); ?>
+<?php require_once('../resources/views/home/menu.php'); ?>
 
 <div class="container-fluid">
   <div class="row">
@@ -171,4 +171,4 @@
 </div>
 
 
-<?php require_once('../app/Views/footer.php'); ?>
+<?php require_once('../resources/views/home/footer.php'); ?>

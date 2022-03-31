@@ -1,4 +1,4 @@
-<?php require_once('../resources/views/header.php') ?>
+<?php require_once('../resources/views/home/header.php') ?>
 
 <nav class="navbar navbar-expand-sm navbar-primary bg-warning">
   <div class="container-fluid">
