@@ -608,3 +608,14 @@ label.radio input:checked+span {
 .table-stats .table-line-plus .status-social-icon {
 	color: #a75d54;
 }
+
+img.nav-avatar {
+  background-size: cover;
+  border: solid 5px #773C8A;
+  border-radius: 50%;
+  height: 60px;
+  margin-right: 2px;
+  margin-top: 50px;
+  vertical-align: middle;
+  width: 60px;
+}
