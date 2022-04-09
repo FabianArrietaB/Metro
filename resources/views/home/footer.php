@@ -1,60 +1,62 @@
-<footer class=" bg-light text-center">
-    <div class="nav">
-        <div class="container-fluid">
-            <div class="row justify-content-md-center">
-                <div class="col-md">
-                    <div class="card">
-                        <img src="../img/ferreteriametropolis.png" width="300" heigth="50" alt="" class="mx-auto d-block">
-                        <div class="card-body">
-                            <a style="color: #007bff"><strong><i class="fas fa-envelope-open-text"></i> comercial@metropolisdelacosta.com</strong></a> <br>
-                            <a style="color: #007bff"><strong><i class="fas fa-phone-alt"></i> 3223926224</strong></a> <br>
-                            <a target="_blank" href="https://goo.gl/maps/8npqfVEbtinE54qv8"><strong><i class="fas fa-map-marker-alt"></i> Ubicacion</strong></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md">
-                    <div class="card">
-                        <img src="../img/ferrecasas.png" width="300" heigth="50" alt="" class="mx-auto d-block">
-                        <div class="card-body">
-                            <a style="color: #007bff"><strong><i class="fas fa-envelope-open-text"></i> ventasferrecasas@metropolisdelacosta.com</strong></a> <br>
-                            <a style="color: #007bff"><strong><i class="fas fa-phone-alt"></i> 3233267367</strong></a> <br>
-                            <a target="_blank" href="https://goo.gl/maps/URK5MHLHTbnpEsvR8"><strong><i class="fas fa-map-marker-alt"></i> Ubicacion</strong></a>
-                        </div> 
-                    </div>
-                </div>
-                <div class="col-md">
-                    <div class="card">
-                    <img src="../img/ceramicasas.png" width="300" heigth="50" alt="" class="mx-auto d-block">
-                        <div class="card-body">
-                            <a style="color: #007bff"><strong><i class="fas fa-envelope-open-text"></i> ventasceramicasas@metropolisdelacosta.com</strong></a> <br>
-                            <a style="color: #007bff"><strong><i class="fas fa-phone-alt"></i> 3106203911</strong></a> <br>
-                            <a target="_blank" href="https://goo.gl/maps/wCZ61Kb1UbBqNe2F7"><strong><i class="fas fa-map-marker-alt"></i> Ubicacion</strong></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md">
-                    <div class="card">
-                        <img src="../img/bodegamayorista.png" width="300" heigth="50" alt="" class="mx-auto d-block">
-                        <div class="card-body">
-                            <a style="color: #007bff"><strong><i class="fas fa-envelope-open-text"></i> jrincon@metropolisdelacosta.com</strong></a> <br>
-                            <a style="color: #007bff"><strong><i class="fas fa-phone-alt"></i> 3116534662</strong></a> <br>
-                            <a target="_blank" href="https://goo.gl/maps/XqJCBkT5JwECYfXJ9"><strong><i class="fas fa-map-marker-alt"></i> Ubicacion</strong></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="btn-flotante d-block d-sm-none">
-        <div class=" btn-group text-center d-block d-sm-none">
-            <a class="btn btn-outline-primary " href="https://www.facebook.com/Metropolisdelacosta/" target="_blank"><i class="fab fa-facebook fa-1x"></i></a>
-            <a class="btn btn-outline-primary " href="https://api.whatsapp.com/send?phone=3223926224" target="_blank"><i class="fab fa-whatsapp-square fa-1x"></i></a>
-            <a class="btn btn-outline-primary " href="https://www.instagram.com/ferreteriametropolisdelacosta/" target="_blank"><i class="fab fa-instagram-square fa-1x"></i></a>
-            <a class="btn btn-outline-primary " href="" target="_blank"><i class="fas fa-book-reader"></i></a>
-        </div>
+
+  <footer class="py-5">
+    <div class="row">
+      <div class="col-2">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-2">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-2">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-4 offset-1">
+        <form>
+          <h5>Subscribe to our newsletter</h5>
+          <p>Monthly digest of whats new and exciting from us.</p>
+          <div class="d-flex w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn btn-primary" type="button">Subscribe</button>
+          </div>
+        </form>
+      </div>
     </div>
 
-    <a href="#" id="js_up" class="boton-subir"><i class="fa fa-rocket" aria-hidden="true"></i></a>
-</footer>
+    <div class="d-flex justify-content-between py-4 my-4 border-top">
+      <p>© 2021 Company, Inc. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+        <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+      </ul>
+    </div>
+  </footer>
+
+  
 </body>
 </html>

@@ -1,8 +1,8 @@
 <?php require_once('../resources/views/home/header.php') ?>
 
-<nav class="navbar navbar-expand-sm navbar-primary bg-warning">
+<nav class="navbar navbar-expand-sm navbar-primary bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="http://localhost/Metropolisweb/public">
       <img src="../img/logo2.png" alt="Logo" style="width:50px;" class="rounded-pill">
     </a>
     <div class="collapse navbar-collapse" id="mynavbar">
@@ -22,7 +22,6 @@
           </div>
         </div>
       </div>
-      
         <div class="nav-item text-nowrap">
           <ul class="dropdown navbar-nav me-auto">
             <a type="button" class="navbar-brand" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" href="#">

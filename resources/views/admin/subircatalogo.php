@@ -1,6 +1,6 @@
 <?php require_once('../resources/views/home/header.php') ?>
 
-<nav class="navbar navbar-expand-sm navbar-primary bg-warning">
+<nav class="navbar navbar-expand-sm navbar-primary bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
       <img src="../img/logo2.png" alt="Logo" style="width:50px;" class="rounded-pill">

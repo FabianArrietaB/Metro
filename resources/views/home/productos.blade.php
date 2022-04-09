@@ -1,9 +1,9 @@
 <?php require_once('../resources/views/home/header.php') ?>
 
-<nav class="navbar navbar-expand-sm navbar-primary bg-warning">
+<nav class="navbar navbar-expand-sm navbar-primary bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <img src="../img/logo2.png" alt="Logo" style="width:50px;" class="rounded-pill">
+    <a class="navbar-brand" href="http://localhost/Metropolisweb/public">
+      <img src="../img/logo2.png" alt="Logo" style="width:60px;" class="rounded-pill">
     </a>
     <div class="collapse navbar-collapse" id="mynavbar">
       <ul class="navbar-nav me-auto">
@@ -18,7 +18,7 @@
         <div class="col-sm-12">
           <div class="input-group">
               <input class="form-control form-control-dark w-90" type="text" placeholder="Buscar" aria-label="Search">  
-              <button type="button" class="btn btn-primary" href="#"><i class="fas fa-search"></i></button>
+              <button type="button" class="btn btn-ligt" href="#"><i class="fas fa-search"></i></button>
           </div>
         </div>
       </div>
