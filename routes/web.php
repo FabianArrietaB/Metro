@@ -30,6 +30,17 @@ Route::get('/info', function () {
 
 });
 
+Route::get('/prov', function () {
+    return view('home/proveedores');
+
+});
+
+Route::get('/sedes', function () {
+    return view('home/sedes');
+
+});
+
+
 /*Autenticar*/
 
 Route::get('/aut', function () {

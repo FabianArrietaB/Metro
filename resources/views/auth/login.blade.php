@@ -12,16 +12,16 @@
         <link rel="stylesheet" href="../resources/login/plugins/sweetalert2/sweetalert2.min.css">
         <link rel="stylesheet" type="text/css" href="../resources/login/fuentes/iconic/css/material-design-iconic-font.min.css">
         <script src="../resources/login/jquery/jquery-3.3.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src="../resources/login/popper/popper.min.js"></script>
-    <script src="../resources/login/plugins/sweetalert2/sweetalert2.all.min.js"></script>
-    <script src="../resources/js/codigo.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="../resources/login/popper/popper.min.js"></script>
+        <script src="../resources/login/plugins/sweetalert2/sweetalert2.all.min.js"></script>
+        <script src="../resources/js/codigo.js"></script>
     </head>
     <body>
         <div class="container-login">
             <div class="wrap-login">
                 <form class="login-form validate-form" id="formLogin" action="" method="post">
-                    <span class="login-form-title"><img src="../img/logo2.png" alt="Logo" style="width:150px;" class="rounded-pill"></span>
+                    <a class="navbar-brand" href="http://localhost/Metropolisweb/public"><span class="login-form-title"><img src="../img/logo2.png" alt="Logo" style="width:150px;" class="rounded-pill"></span>
                     <div class="wrap-input100" data-validate = "Usuario incorrecto">
                         <input class="input100" type="text" id="usuario" name="usuario" placeholder="Usuario">
                         <span class="focus-efecto"></span>

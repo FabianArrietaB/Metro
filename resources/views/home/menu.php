@@ -1,7 +1,7 @@
 <header>
     <nav class="navbar navbar-expand-md navbar-light bg-light">
         <a class="navbar-brand color-text-nav" href="http://localhost/Metropolisweb/public" style="color: blue">
-            <img src="../img/grupometropolis.png" width="200" heigth="75" alt="">
+            <img src="../img/grupometropolis.png" width="190" heigth="75" alt="">
         </a>
         <div class="collapse navbar-collapse d-none d-sm-none d-md-block" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
@@ -17,4 +17,29 @@
             </ul>
         </div>
     </nav>
+    <nav class="navbar navbar-expand-lg navbar- bg-light">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="http://localhost/Metropolisweb/public/info">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://localhost/Metropolisweb/public/prov">Provedores</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://localhost/Metropolisweb/public/sedes">Sedes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://localhost/Metropolisweb/public/catalogo">Catalogo</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button type="button" class="btn btn-ligt" href="#"><i class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    
 </header>
