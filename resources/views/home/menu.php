@@ -1,7 +1,7 @@
 <header>
     <nav class="navbar navbar-expand-md navbar-light bg-light">
         <a class="navbar-brand color-text-nav" href="http://localhost/Metropolisweb/public" style="color: blue">
-            <img src="../img/grupometropolis.png" width="250" heigth="75" alt="">
+            <img src="../img/grupometropolis.png" width="200" heigth="75" alt="">
         </a>
         <div class="collapse navbar-collapse d-none d-sm-none d-md-block" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
