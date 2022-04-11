@@ -191,3 +191,5 @@
     </div>
 </div>
 </section>
+
+<?php require_once('../resources/views/home/footer.php') ?>

@@ -105,10 +105,25 @@
     </nav>
 
     <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+      <div class="container">
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../img/productos/promo.png" class="rounded mx-auto d-block" width="90%" height="auto" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="../img/productos/promo.png" class="rounded mx-auto d-block" width="90%" height="auto" alt="...">
+            </div>
+            <div class="carousel-item">
+            <img src="../img/productos/promo.png" class="rounded mx-auto d-block" width="90%" height="auto" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
       <div class=" justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
         <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
           <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card mb-3 rounded-3 shadow-sm border-primary">
               <div class="card-header py-3 text-white bg-primary border-primary">
                 <h4 class="my-0 fw-normal">Cemento Argos 50Kg</h4>
               </div>
@@ -122,7 +137,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card mb-3 rounded-3 shadow-sm border-primary">
               <div class="card-header py-3 text-white bg-primary border-primary">
                 <h4 class="my-0 fw-normal">Cemento Gris Cemex 50k</h4>
               </div>
@@ -136,7 +151,7 @@
             </div>
           </div>
           <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card mb-3 rounded-3 shadow-sm border-primary">
               <div class="card-header py-3 text-white bg-primary border-primary">
                 <h4 class="my-0 fw-normal">Cemento Ultracen 50K</h4>
               </div>

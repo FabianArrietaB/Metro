@@ -1,76 +1,38 @@
-
-//invocamos al objeto (window) y a su método (scroll), solo se ejecutara si el usuario hace scroll en la página
-$(window).scroll(function(){
-  if($(this).scrollTop() > 300){ //condición a cumplirse cuando el usuario aya bajado 301px a más.
-    $("#js_up").slideDown(300); //se muestra el botón en 300 mili segundos
-  }else{ // si no
-    $("#js_up").slideUp(300); //se oculta el botón en 300 mili segundos
-  }
-});
-
-//creamos una función accediendo a la etiqueta i en su evento click
-$("#js_up i").on('click', function (e) { 
-  e.preventDefault(); //evita que se ejecute el tag ancla (<a href="#">valor</a>).
-  $("body,html").animate({ // aplicamos la función animate a los tags body y html
-    scrollTop: 0 //al colocar el valor 0 a scrollTop me volverá a la parte inicial de la página
-  },700); //el valor 700 indica que lo ara en 700 mili segundos
-  return false; //rompe el bucle
-});
-
 $(document).ready(function(){
-  $('.button-left').click(function(){
-      $('.sidebar').toggleClass('fliph');
+  // Agregue desplazamiento suave a todos los enlaces
+  $(".mouse").on('click', function(event) {
+
+    // Asegúrese de que this.hash tenga un valor antes de anular el comportamiento predeterminado
+    if (this.hash !== "") {
+      // Prevenir el comportamiento predeterminado del clic del ancla
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+// Usando el método animate () de jQuery para agregar un desplazamiento suave de la página
+// El número opcional (800) especifica la cantidad de milisegundos necesarios para desplazarse al área especificada
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Agregue hash (#) a la URL cuando termine de desplazarse (comportamiento de clic predeterminado)
+        window.location.hash = hash;
+      });
+    } // Fin if
   });
-    
 });
 
-function w3_open() {
-  document.getElementById("main").style.marginLeft = "25%";
-  document.getElementById("mySidebar").style.width = "25%";
-  document.getElementById("mySidebar").style.display = "block";
-  document.getElementById("openNav").style.display = 'none';
-}
-function w3_close() {
-  document.getElementById("main").style.marginLeft = "0%";
-  document.getElementById("mySidebar").style.display = "none";
-  document.getElementById("openNav").style.display = "inline-block";
-  
-}
-
-window.addEventListener("load", () => {
-
-  //localStorage.setItem('active', '');
-  let activeTab = localStorage.getItem('active');
-  let btn = document.querySelectorAll('#pills-tab li .nav-link')
-  let tabContent = document.querySelectorAll('.tab-content .tab-pane')
-
-  // read active tab from storage
-  if ( activeTab ) {
-
-      // show active tab
-      tabSelected = document.querySelector(activeTab+'-tab')
-      tabSelected.className += ' active'
-
-      // show active content
-      contentSelected = document.querySelector(activeTab)
-      contentSelected.className += ' active show'
-
-  } else {
-
-      // default tab
-      btn[0].className += ' active'
-      tabContent[0].className += ' active show'
+//abajo hacia arriba
+// fadeIn fadeOut
+$(window).on('scroll', function () { // Evento de Scroll
+  if (($(window).scrollTop() + $(window).height()) == $(document).height()) { // Si estamos al final de la página
+      $('.ocultar').stop(true).animate({ // Escondemos el elemento
+          opacity: 0
+      }, 250);
+  } else { // Si no
+      $('.ocultar').stop(true).animate({ // Mostramos el elemento
+          opacity: 1
+      }, 200);
   }
-
-  //btn = document.querySelectorAll('#pills-tab li .nav-link')
-  btn.forEach( tab => {
-
-      // read selected tab from EventListener (bootstrap)
-      tab.addEventListener('show.bs.tab', (e) => {
-          dataTarget = tab.getAttribute('data-bs-target')
-          localStorage.setItem('active', dataTarget);
-      })
-
-  })
-
-})
+});
