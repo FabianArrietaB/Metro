@@ -37,7 +37,7 @@
       <div class="col-4 offset-1">
         <form>
           <h5>Suscríbete a nuestra Pagina</h5>
-          <p>Para  que no teperdas nuestras promociones.</p>
+          <p>Para  que no te pierdas nuestras promociones.</p>
           <div class="d-flex w-100 gap-2">
             <label for="newsletter1" class="visually-hidden">Correo</label>
             <input id="newsletter1" type="text" class="form-control" placeholder="Correo">

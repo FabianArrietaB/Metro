@@ -17,6 +17,20 @@
   background: linear-gradient(to right, #285D9c, #CF7232);
 }
 
+.sidebar-prod {
+
+  background-color: transparent !important;
+}
+
+.card-prod {
+  background-color: transparent !important;
+}
+
+.border-prod {
+
+  border-color: #2196f3;
+}
+
 .btn-group{
   margin-top: 15px;
   margin-left: 10px;
@@ -92,6 +106,10 @@ h2 {
   display:inline-block;
   margin: 40px 8px 10px 8px; 
   color: #285D9C;
+}
+
+h4 {
+  color: rgb(255, 255, 255);
 }
 
 h5 {

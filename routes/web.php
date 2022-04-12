@@ -40,7 +40,10 @@ Route::get('/sedes', function () {
 
 });
 
+Route::get('/detalles', function () {
+    return view('home/detalleprod');
 
+});
 /*Autenticar*/
 
 Route::get('/aut', function () {
