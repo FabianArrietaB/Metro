@@ -1,21 +1,41 @@
 @font-face {
   font-family: Poppins-Regular;
-  src: url('fuentes/poppins/Poppins-Regular.ttf'); 
+  src: url('resources/fuentes/poppins/Poppins-Regular.ttf'); 
 }
 
 @font-face {
   font-family: Poppins-Medium;
-  src: url('fuentes/poppins/Poppins-Medium.ttf'); 
+  src: url('resources/fuentes/poppins/Poppins-Medium.ttf'); 
 }
 
 @font-face {
   font-family: Poppins-Bold;
-  src: url('fuentes/poppins/Poppins-Bold.ttf'); 
+  src: url('resources/fuentes/poppins/Poppins-Bold.ttf'); 
 }
 
 @font-face {
   font-family: Poppins-SemiBold;
-  src: url('fuentes/poppins/Poppins-SemiBold.ttf'); 
+  src: url('resources/fuentes/poppins/Poppins-SemiBold.ttf'); 
+}
+
+@font-face {
+  font-family: Helvetica-Condensed;
+  src: url('resources/fuentes/Helvetica/HelveticaLT57Condensed.ttf');
+}
+
+@font-face {
+  font-family: Helvetica-Condensed;
+  src: url('resources/fuentes/Helvetica/HelveticaLT77BoldCondensed');
+}
+
+@font-face {
+  font-family: Helvetica-Condensed;
+  src: url('resources/fuentes/Helvetica/HighlandGothicFLF');
+}
+
+@font-face {
+  font-family: Helvetica-Condensed;
+  src: url('resources/fuentes/Helvetica/HighlandGothicFLF-Bold.ttf');
 }
 
 *{
@@ -56,15 +76,15 @@ button:hover {
   justify-content: center;
   align-items: center;
   padding: 15px;
-  background: -webkit-linear-gradient(to right, #285D9c, #CF7232);
-  background: linear-gradient(to right, #285D9c, #CF7232);
+  background: -webkit-linear-gradient(to right, #285D9c, #FFF);
+  background: linear-gradient(to right, #285D9c, #FFF);
 }
 .wrap-login {
   width: 400px;
   background: #eceff1;
   border-radius: 20px;
   overflow: hidden;
-  padding: 77px 55px 53px 55px;
+  padding: 5px 22px 20px 22px;
   -webkit-box-shadow: 25px 40px 28px 0px rgba(0, 0, 0, 0.38);
  /* box-shadow: eje-x | eje-y | blur-radius | color */
 }
@@ -135,10 +155,10 @@ button:hover {
   transition: all 0.4s;
 
   background: #6a7dfe;
-  background: -webkit-linear-gradient(left, #285D9c, #CF7232);
-  background: -o-linear-gradient(left, #285D9c, #CF7232);
-  background: -moz-linear-gradient(left, #285D9c, #CF7232);
-  background: linear-gradient(left, #285D9c, #CF7232);
+  background: -webkit-linear-gradient(left, #285D9c, #FFF);
+  background: -o-linear-gradient(left, #285D9c, #FFF);
+  background: -moz-linear-gradient(left, #285D9c, #FFF);
+  background: linear-gradient(left, #285D9c, #FFF);
 }
 
 .focus-efecto::after {
@@ -209,10 +229,10 @@ button:hover {
   width: 300%;
   height: 100%;
   background: #a64bf4;
-  background: -webkit-linear-gradient(right, #285D9c, #CF7232, #285D9c, #CF7232);
-  background: -o-linear-gradient(right, #285D9c, #CF7232, #285D9c, #CF7232);
-  background: -moz-linear-gradient(right, #285D9c, #CF7232, #285D9c, #CF7232);
-  background: linear-gradient(right, #285D9c, #CF7232, #285D9c, #CF7232);
+  background: -webkit-linear-gradient(right, #285D9c, #FFF, #285D9c, #FFF);
+  background: -o-linear-gradient(right, #285D9c, #FFF, #285D9c, #FFF);
+  background: -moz-linear-gradient(right, #285D9c, #FFF, #285D9c, #FFF);
+  background: linear-gradient(right, #285D9c, #FFF, #285D9c, #FFF);
   top: 0;
   left: -100%;
 
@@ -225,7 +245,7 @@ button:hover {
 .login-form-btn {
   font-family: Poppins-Medium;
   font-size: 20px;
-  color: #fff;
+  color: rgb(226, 170, 50);
   line-height: 1.2;
   text-transform: uppercase;
 

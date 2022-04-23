@@ -13,8 +13,8 @@
   justify-content: center !important;
   align-items: center !important;
   padding: 15px;
-  background: -webkit-linear-gradient(to right, #285D9c, #CF7232);
-  background: linear-gradient(to right, #285D9c, #CF7232);
+  background: -webkit-linear-gradient(to right, #285D9c, #FFF);
+  background: linear-gradient(to right, #285D9c, #FFF);
 }
 
 .sidebar-prod {
@@ -50,8 +50,6 @@
       font-size: 3.5rem;
     }
   }
-
-
 
 .simplescrollup__button {
     position: fixed;

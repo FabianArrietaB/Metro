@@ -14,12 +14,11 @@ class Proyecto extends Migration
     public function up()
     {
         //
-        
         Schema::create('proyecto', function (Blueprint $table) {
             $table->bigIncrements('id');
 
             $table->string('nombre');
-            $table->string('imagen');
+            $table->integer('imagen');
             $table->string('descripcion');
             $table->string('valor');
             $table->string('url');

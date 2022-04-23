@@ -1,6 +1,6 @@
 <?php require_once('../resources/views/home/header.php') ?>
 
-<?php require_once('../resources/views/home/menu.php') ?>
+<?php require_once('../resources/views/home/menu.blade.php') ?>
 
 <h1>PROVEEDORES</h1>
 

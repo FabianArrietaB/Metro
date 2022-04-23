@@ -5,17 +5,17 @@
         </a>
         <div class="collapse navbar-collapse d-none d-sm-none d-md-block" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-light">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="http://localhost/Metropolisweb/public/info">Quienes Somos</a>
+                    <li class="nav-item" id="tab-somos">
+                        <a class="nav-link" href="http://localhost/Metropolisweb/public/info">Quienes Somos</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" id="tab-prov">
                         <a class="nav-link" href="http://localhost/Metropolisweb/public/prov">Provedores</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item"id="tab-sedes">
                         <a class="nav-link" href="http://localhost/Metropolisweb/public/sedes">Sedes</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="http://localhost/Metropolisweb/public/catalogo">Catalogo</a>
+                    <li class="nav-item" id="tab-catl">
+                        <a class="nav-link" href="http://localhost/Metropolisweb/public/catalogo" :active="request()->routeIs('home.productos')">Productos</a>
                     </li>
                 </ul>
                     <form class="d-flex">
